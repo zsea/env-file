@@ -1,4 +1,4 @@
-# ENV-FILE
+# JSON-ENV-FILE
 
 读取指定配置文件中的环境变量并设置到当前应用程序中，并运行指定的脚本。
 
@@ -18,7 +18,7 @@
   "description": "",
   "main": "lib/index.js",
   "scripts": {
-    "dev": "env-file node index.js"
+    "dev": "json-env-file node index.js"
   },
   "keywords": [],
   "author": "",
@@ -28,7 +28,7 @@
 
 # 参数
 
-只有一个参数```--file```，通过该参数可以设置环境变量配置所在的位置。如：```env-file --file ./.env node index.js```，默认情况下，变量存储于```./env.json```文件中。
+只有一个参数```--file```，通过该参数可以设置环境变量配置所在的位置。如：```json-env-file --file ./.env node index.js```，默认情况下，变量存储于```./env.json```文件中。
 
 # 怎么配置变量
 

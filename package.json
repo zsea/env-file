@@ -1,13 +1,13 @@
 {
-  "name": "env-file",
-  "version": "0.0.1",
+  "name": "json-env-file",
+  "version": "0.0.3",
   "description": "Read the environment variables in the specified configuration file and set them to the current application, and run the specified script.",
   "main": "lib/index.js",
   "scripts": {
     "test": "node test/index.js"
   },
   "bin": {
-    "env-file": "./.bin/cli.js"
+    "json-env-file": "./.bin/cli.js"
   },
   "repository": {
     "type": "git",
