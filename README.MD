@@ -10,6 +10,12 @@
 
 # 怎么使用？
 
+## 安装
+
+``` npm install --save json-env-file```
+
+## 配置
+
 在```package.json```的```scripts```中添加配置项，如：
 ```
 {
