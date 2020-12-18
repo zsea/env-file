@@ -1,13 +1,17 @@
 {
   "name": "env-file",
   "version": "0.0.1",
-  "description": "",
+  "description": "Read the environment variables in the specified configuration file and set them to the current application, and run the specified script.",
   "main": "lib/index.js",
   "scripts": {
     "test": "node test/index.js"
   },
   "bin": {
     "env-file": "./.bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zsea/env-file.git"
   },
   "keywords": [],
   "author": "",
