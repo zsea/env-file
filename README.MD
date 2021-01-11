@@ -12,7 +12,7 @@
 
 ## 安装
 
-``` npm install --save env-loador```
+``` npm install --D env-loador```
 
 ## 配置
 
